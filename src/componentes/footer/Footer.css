@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.seccion{
+    background-color: rgb(177, 140, 248);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.cajaPrincipal{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 84.3rem;
+    height: 10rem;
+}
+
+.cajaSecundaria{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+}
+
+.itemInfo{
+    color:black;
+    line-height: 1px;
+    padding-right: 2rem;
+    padding-left: 0;
+    display:inline;
+    text-align: center !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 22rem;
+}
+
+.imagenCaja i{
+    font-size: 1.5rem;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tituloItem{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tituloItem p{
+    line-height: 1;
+    padding:1rem;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+
+/*color: rgb(167, 75, 75);*/
+
+

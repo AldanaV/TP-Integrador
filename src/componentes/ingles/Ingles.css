@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.libros-ingles h1{
+    padding: 1.5rem;
+    background-color: rgb(172, 101, 101);
+    text-shadow:2px 1px 3px white ;
+}
+
+.container-ingles{
+    background-color: rgb(255, 255, 255); 
+}
+
+
+.contenedor-imagenes{
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    padding-top: 2rem;
+    padding-left: 5.5rem;
+    padding-bottom: 7rem;
+}
