@@ -30,9 +30,9 @@
 
 .contenido-form{
     width: 100%;
-    max-width: 450px;
+    max-width: 650px;
     background-color: rgb(172, 101, 101);
-    padding: 50px 60px 70px;
+    padding: 50px 10px 70px;
     margin-top: 14px;
     margin-bottom: 20px;
     text-align: left;
@@ -42,7 +42,7 @@
 }
 
 .contenedor-form h2{
-    margin-bottom: 40px;
+    margin: 0% 5% 40px 5%;
     color: black;
     position: relative;
     text-shadow:2px 1px 3px white ;
@@ -53,11 +53,19 @@
 }
 
 input{
-    width: 100%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
     background-color: white;
     border: 0;
     outline: none;
 }
+
+label {
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+}
+
+
 
 .inputMensaje input{
     padding-bottom: 140px;
@@ -65,16 +73,17 @@ input{
 }
 
 .btn{
-    width: 50%;
     display: flex;
-    margin-left: 5rem;
+    margin-left: 0rem;
     border: 0px;
     cursor: pointer;
-    
+    width: 100%;
+    justify-content: center;
 }
 
 .btn input{
     border-radius: 5px;
+    width: 80px;
 }
 
 .input-nombre{

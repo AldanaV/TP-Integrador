@@ -13,7 +13,8 @@ function Footer() {
                                 <i class="bi bi-box2-heart-fill"></i>
                             </p>
                             <div className="tituloItem">
-                                <p>ENVIO GRATIS - En compras superiores a $40.000</p>
+                                <h5>ENVIO GRATIS</h5>
+                                <h6>En compras superiores a $40.000</h6>
                             </div>
                         </div>
                         <div className="itemInfo">
@@ -21,7 +22,8 @@ function Footer() {
                                 <i class="bi bi-cash-coin"></i>
                             </p>
                             <div className="tituloItem">
-                                <p>DESCUENTO DE 10% - Compras en efectivo</p>
+                                <h5>DESCUENTO DE 10%</h5>
+                                <h6>Compras en efectivo</h6>
                             </div>
                         </div>
                         <div className="itemInfo">
@@ -29,7 +31,8 @@ function Footer() {
                                 <i class="bi bi-geo-alt-fill"></i>
                             </p>
                             <div className="tituloItem">
-                                <p>PUNTOS DE ENTREGA - Quilmes - Constitución - Balvanera</p>
+                                <h5>PUNTOS DE ENTREGA</h5>
+                                <h6>Quilmes - Constitución - Balvanera</h6>
                             </div>
                         </div>
                     </div>

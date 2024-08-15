@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 import './Ingles.css'
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import thesongofachilles from '../imagenes/thesongofachilles.png'
@@ -8,9 +9,37 @@ import once from '../imagenes/once.png'
 import Footer from '../footer/Footer';
 
 const LibrosIngles = () => {
+    const navigate = useNavigate();
+    const [libros, setLibros] = useState([
+        {
+            src: thesongofachilles,
+            nombre: 'Achilles', 
+            descripcion: ''
+        },
+        {
+            src: solitaire,
+            nombre: 'Solitaire', 
+            descripcion: ''
+        },
+        {
+            src: thelove,
+            nombre: 'Thelove', 
+            descripcion: ''
+        },
+        {
+            src: once,
+            nombre: 'Once', 
+            descripcion: ''
+        },
+    ]);
+  
+    const verDetalleClick = (libro) => {
+        navigate('/detalle', { state: libro });
+    };
+
     return (
-        <div className="container-ingles">
-            <div className="libros-ingles">
+        <div className="container-libros">
+            <div className="libros-titulo">
                 <h1>Libros en inglés</h1>
                 <div className="breadcrumb">
                     <Breadcrumb>
@@ -19,31 +48,18 @@ const LibrosIngles = () => {
                     </Breadcrumb>
                 </div>
             </div>
-            <div className="contenedor-imagenes">
-                <div className="imagenes-ingles">
-                <img style={{ height: '54vh' }}
-                        src={thesongofachilles}
-                        alt='Achilles'
-                    />
-                </div>
-                <div className="imagenes-ingles">
-                <img style={{ height: '54vh' }}
-                        src={solitaire}
-                        alt='Solitaire'
-                    />
-                </div>
-                <div className="imagenes-ingles">
-                <img style={{ height: '54vh' }}
-                        src={thelove}
-                        alt='Thelove'
-                    />
-                </div>
-                <div className="imagenes-ingles">
-                <img style={{ height: '54vh' }}
-                        src={once}
-                        alt='Once'
-                    />
-                </div>
+            <div className="container-imagenes">
+                {
+                    libros.map((libro) => (
+                        <div className='imagenes' key={libro.nombre}>
+                            <img 
+                                src={libro.src}
+                                alt={libro.nombre}
+                                onClick={() => verDetalleClick(libro)}
+                            />
+                        </div>
+                    ))
+                }
             </div>
             <Footer />
         </div>

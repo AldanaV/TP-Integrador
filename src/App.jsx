@@ -5,11 +5,8 @@ import Home from './componentes/home/Home'
 import Libros from './componentes/libros/Libros'
 import LibrosIngles from './componentes/ingles/Ingles'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './componentes/footer/Footer'
-import Principal from './componentes/email/Email'
 import Contacto from './componentes/contacto/Contacto'
-
-
+import Detalle from './componentes/detalle/Detalle'
 
 
 function App() {
@@ -23,6 +20,7 @@ function App() {
           <Route path='/libros' Component={Libros} />
           <Route path='/ingles' Component={LibrosIngles} />
           <Route path='/contacto' Component={Contacto} />
+          <Route path='/detalle' Component={Detalle} />
         </Routes>
       </Router>
         

@@ -1,5 +1,10 @@
 .prueba{
     color: #000000;
     background-color: #ffb6b9b0;
-    height: 100vh;
+    height: 75px;
+    width: 30px;
+}
+
+.navbar-toggler {
+    height: 39.6px;
 }

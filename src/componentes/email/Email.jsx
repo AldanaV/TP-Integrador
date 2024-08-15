@@ -18,7 +18,7 @@ const GuardarEmail = () => {
                 <div className="tituloCorreo">
                     <form>
                         <div className="input-novedades">
-                            <label>Dejanos tu email para enterarte de las próximas novedades</label>
+                            <h5>Dejanos tu email para enterarte de las próximas novedades</h5>
                             <input
                                 type="email"
                                 id="correo"

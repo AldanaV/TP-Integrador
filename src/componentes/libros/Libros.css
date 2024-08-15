@@ -15,8 +15,24 @@
 }
 
 .container-imagenes{
-    display: grid;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
     grid-template-columns: 340px 340px 340px 340px;
     padding-left: 1.2rem;
     padding-bottom: 6rem;
+}
+.imagenes{
+    border-radius: 1%;
+    border: solid;
+    border-color: rgb(226, 99, 243);
+    justify-content: space-between;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 15px 15px rgb(242, 141, 255);
+}
+.imagenes img{ 
+    height: 54vh; 
+    width: 35vh;  
 }
