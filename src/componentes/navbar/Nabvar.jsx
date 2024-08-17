@@ -14,7 +14,7 @@ const NabVarPrincipal = () => {
             <Navbar expand="lg" className="bg-body-tertiary ">
                 <Container>
                     <Link to='/'>
-                        <img src='./icono.jpg' width='40'/>
+                        <img src='./iconolibro.png' width='80'/>
                         </Link>
                     <Navbar.Brand as={Link} to="/">Libreria Nocturna</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

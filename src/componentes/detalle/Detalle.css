@@ -15,20 +15,33 @@
 }
 .libroImg img{
     width: 350px;
-    padding: 15% 0% 15% 40%; 
+    padding: 5% 0% 5% 20%; 
 }
 .libroInfo {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    flex-direction: column
 }
-.libroInfo p {
+.descripcion {
+    padding: 0% 0% 0% 0%; 
     padding-left: 5%;
     padding-right: 15%;
     width: auto;
 }
+.info {
+    padding: 0% 0% 0% 0%; 
+    padding-left: 5%;
+    width: auto;
+    margin: 0%;
+}
+.info span{
+    color: blueviolet;
+    font:bolder 
+}
 .libroInfo h2 {
     padding-left: 5%;
     color: blueviolet;
+    margin: 0%;
 }
 @media (max-width:  775px) {
     .tituloLibro {
